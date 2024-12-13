@@ -9,6 +9,7 @@ import {
   FaMap,
   FaPinterestP,
   FaRegClock,
+  FaSquareInstagram,
   FaYoutube,
 } from 'react-icons/fa6';
 
@@ -222,7 +223,7 @@ const Footer = () => {
                 </Link>
                 <Link href={data.twitterHref} className="cs_center">
                   <i>
-                    <FaInstagram color="#f97d82" />
+                    <FaSquareInstagram color="#f97d82" />
                   </i>
                 </Link>
                 <Link href={data.instagramHref} className="cs_center">

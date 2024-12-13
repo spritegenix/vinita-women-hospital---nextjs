@@ -9,10 +9,12 @@ import {
   FaPinterestP,
   FaTwitter,
 } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
 import {
   FaAnglesRight,
   FaLocationDot,
   FaMap,
+  FaSquareInstagram,
   FaYoutube,
 } from 'react-icons/fa6';
 import { HiMiniMagnifyingGlass } from 'react-icons/hi2';
@@ -158,7 +160,7 @@ const Header = ({ isTopBar, variant }) => {
                       className="cs_center"
                     >
                       <i>
-                        <FaInstagram />
+                        <FaSquareInstagram />
                       </i>
                     </Link>
                     <Link

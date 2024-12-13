@@ -949,14 +949,14 @@ const page = () => {
       {/* End FAQ Solution */}
 
       {/* Start FAQ Solution */}
-      <Section
+      {/* <Section
         // topSpaceLg="70"
         // topSpaceMd="110"
         bottomSpaceLg="80"
         bottomSpaceMd="120"
       >
         <SwiperSlider1 data={imageSwiperSection} />
-      </Section>
+      </Section> */}
 
       {/* End FAQ Solution */}
       {/* Start Contact Solution */}
