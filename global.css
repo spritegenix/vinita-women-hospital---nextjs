@@ -1,0 +1,87 @@
+.smallSliderImg {
+    position: relative;
+    right: 22% !important;
+    object-fit: contain !important;
+    scale: 1.2;
+  
+}
+.accordion-button{
+    color: #695a55 !important;
+    font-weight: 600 !important;   
+}
+.answerbox{
+    background-color: #ffffff !important;
+    color: #695a55;
+    /* font-weight: 600; */
+}
+.accordion-item{
+border: none !important;
+}
+
+.accordion-button:not(.collapsed){
+color: #695a55 !important;
+background-color: #ffffff !important
+}
+
+.accordion-button:focus{
+    outline: none !important;
+    box-shadow: none !important
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+  }
+
+  .logobgss{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: max-content;
+  }
+
+  .custom-modal .modal-content {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.custom-modal .modal-dialog {
+  max-width: unset;
+  margin: 0;
+}
+
+.custom-dialog {
+  padding: 0;
+}
+
+.custom-modal .modal-body {
+  padding: 0;
+}
+
+.modal-backdrop {
+  background: rgba(201, 153, 153, 0.137);
+}
+
+.modal.show {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
