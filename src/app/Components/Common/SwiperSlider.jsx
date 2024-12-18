@@ -55,8 +55,17 @@ const SwiperSlider1 = ({ data }) => {
             <MyVerticallyCenteredModal
               item={selected}
               show={modalShow}
-              onHide={() => setModalShow(false)}
-            />
+              onClose={() => setModalShow(false)}
+            >
+              {modalShow && (
+                <Image
+                  src={item?.image}
+                  height={1200}
+                  width={600}
+                  alt={item?.id}
+                />
+              )}
+            </MyVerticallyCenteredModal>
           </SwiperSlide>
         ))}
       </Swiper>

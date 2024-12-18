@@ -22,7 +22,9 @@ export const metadata = {
       'Vinita Women&#039;s Hospital | Dr. Chetan Gupta &amp; Dr. Neha Raval',
     template: '',
   },
-  description: 'Medilo- Medical & Health NextJS Template',
+  description:
+    'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
+
   openGraph: {
     title:
       'Vinita Women&#039;s Hospital | Dr. Chetan Gupta &amp; Dr. Neha Raval',

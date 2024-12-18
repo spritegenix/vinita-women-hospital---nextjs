@@ -77,6 +77,7 @@ const Header = ({ isTopBar, variant }) => {
       //     { label: 'Contact', href: '/contact' },
       //   ],
       // },
+      { label: 'Gallery', href: '/gallery' },
       { label: 'Contact', href: '/contact' },
     ],
     btnUrl: '/contact',

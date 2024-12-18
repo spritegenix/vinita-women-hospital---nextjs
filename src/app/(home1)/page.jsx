@@ -88,7 +88,7 @@ export const aboutData = {
     'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
   service:
     'We offer a wide range of medical services tailored to meet your unique needs. Discover the difference our dedicated team can make in your journey to wellness.',
-  experienceYears: '26+',
+  experienceYears: '5 years+ ',
   experienceTitle: 'Experience',
   videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
   videoText: 'How We Work',
