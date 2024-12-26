@@ -280,7 +280,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="cs_footer_bottom cs_primary_bg">
+      <div className="cs_footer_bottom blackfooter">
         <div className="container">
           <div className="cs_footer_bottom_in">
             <p className="cs_footer_copyright mb-0">{data.copyrightText}</p>

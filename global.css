@@ -14,7 +14,10 @@
   /* font-weight: 600; */
 }
 .accordion-item {
-  border: none !important;
+  border: 2px solid var(--blue-color) !important;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1rem 0;
 }
 
 .accordion-button:not(.collapsed) {

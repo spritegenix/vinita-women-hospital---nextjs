@@ -20,10 +20,8 @@ const HeroSection = ({ data }) => {
     infinite: true,
     slidesToShow: 1,
     fade: false,
-    swipeToSlide: true,
-    autoplay: true,
-    speed: 6000,
-    autoplaySpeed: 10000,
+    // speed: 6000,
+    // autoplaySpeed: 10000,
   };
 
   const settings2 = {
@@ -110,7 +108,7 @@ const HeroSection = ({ data }) => {
             ))}
           </Slider>
         </div>
-        <div className="cs_hero_slider_nav slick-slider">
+        {/* <div className="cs_hero_slider_nav slick-slider">
           <Slider
             asNavFor={nav1}
             ref={(slider) => (sliderRef2 = slider)}
@@ -131,7 +129,7 @@ const HeroSection = ({ data }) => {
               </div>
             ))}
           </Slider>
-        </div>
+        </div> */}
       </section>
     </>
   );
