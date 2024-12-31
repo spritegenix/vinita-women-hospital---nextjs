@@ -16,7 +16,7 @@ function TeamSection1({ data }) {
         <div className="" />
         <div className="">
           <div className="">
-            <div className="d-md-flex justify-content-center gap-5 text-center">
+            <div className="d-md-flex justify-content-around gap-5 text-center">
               {data?.sliderData.map((item, index) => (
                 <div className="cs_slide" key={index}>
                   <div

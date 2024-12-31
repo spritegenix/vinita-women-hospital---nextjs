@@ -41,11 +41,7 @@ const HeroSection = ({ data }) => {
     <>
       <section className="position-relative">
         <div className="cs_hero_slider_thumb slick-slider">
-          <Slider
-            {...settings}
-            asNavFor={nav2}
-            ref={(slider) => (sliderRef1 = slider)}
-          >
+          <div>
             {data?.primarySlider.map((items, index) => (
               <div className="cs_hero_slider_thumb_item" key={index}>
                 <div
@@ -67,7 +63,13 @@ const HeroSection = ({ data }) => {
                             __html: items.contactSubtitle,
                           }}
                         />
-                        <div className="cs_hero_info">
+                        <p
+                          className="cs_hero_subtitle"
+                          dangerouslySetInnerHTML={{
+                            __html: items.contactSubtitl1,
+                          }}
+                        />
+                        {/* <div className="cs_hero_info">
                           <h3
                             dangerouslySetInnerHTML={{
                               __html: items.contactTitle,
@@ -76,7 +78,7 @@ const HeroSection = ({ data }) => {
                           <p
                             dangerouslySetInnerHTML={{ __html: items.contact }}
                           />
-                        </div>
+                        </div> */}
                         <div className="cs_hero_btns">
                           <Button
                             btnText={items.btnText1}
@@ -106,7 +108,7 @@ const HeroSection = ({ data }) => {
                 </div>
               </div>
             ))}
-          </Slider>
+          </div>
         </div>
         {/* <div className="cs_hero_slider_nav slick-slider">
           <Slider

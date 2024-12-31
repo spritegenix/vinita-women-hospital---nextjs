@@ -45,8 +45,6 @@ const Header = ({ isTopBar, variant }) => {
         label: 'Service',
         href: '/service',
         subItems: [
-          { label: 'Gynecology', href: '/service/gynecology' },
-          { label: 'Maternity Care', href: '/service/maternity-care' },
           {
             label: 'Infertility treatments',
             href: '/service/infertility-treatments',
@@ -55,6 +53,8 @@ const Header = ({ isTopBar, variant }) => {
             label: 'Laparoscopic Surgery',
             href: '/service/laparoscopic-surgery',
           },
+          { label: 'Gynecology', href: '/service/gynecology' },
+          { label: 'Maternity Care', href: '/service/maternity-care' },
         ],
       },
       // {
@@ -80,8 +80,8 @@ const Header = ({ isTopBar, variant }) => {
       { label: 'Gallery', href: '/gallery' },
       { label: 'Contact', href: '/contact' },
     ],
-    btnUrl: '/contact',
-    btnText: 'Contact Now',
+    btnUrl: '/appointments',
+    btnText: 'Book an Appointment',
   };
 
   const handleOpenMobileSubmenu = (index) => {

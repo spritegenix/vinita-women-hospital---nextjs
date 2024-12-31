@@ -6,7 +6,7 @@ import Image from 'next/image';
 const IvfSection = ({ data, cardBg }) => {
   return (
     <>
-      <div className="container">
+      <div className="container ">
         <SectionHeading
           variant={'text-center'}
           SectionTitle={data.title}
@@ -17,7 +17,7 @@ const IvfSection = ({ data, cardBg }) => {
           {data?.services.map((service, index) => (
             <div key={index} className="col-md-6 col-sm-12 col-xl-4 ">
               <div
-                className={`cs_iconbox cs_style_2 cs_radius_15 cs_hover_layer_2 ivfboxes ${
+                className={`cs_iconbox cs_style_2 cs_radius_15 cs_hover_layer_2 ivfboxes cs_gray_bg ${
                   cardBg ? '' : 'cs_gray_bg'
                 }`}
               >

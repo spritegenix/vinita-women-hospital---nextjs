@@ -29,39 +29,15 @@ const heroData = {
       bgImageUrl: '/assets/img/Vinita-Website-Backgroud-2.png',
       title: 'Welcome to Vinita Women’s <span>Hospital.</span>',
       contactSubtitle:
-        'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
+        'Located in Palanpur, Gujarat, Vinita Women’s Hospital is dedicated to providing the best gynecological and fertility care for women. With advanced laparoscopy facilities and the region’s first modular IVF lab, our expert doctors offer the highest standard of medical care for a range of women’s health concerns.',
+      contactSubtitl1:
+        'Our Mission is to ensure that every woman receives personalized care, cutting-edge treatments, and the support she needs at every stage of her journey to health and wellness.',
       contactTitle: 'Receive Medical Service.',
       contact: 'Call Us at: +91-9558908108 / 9116889079',
-      btnText1: 'Contact Now',
-      link: '/contact',
-      btnText2: 'Discover More',
-      link2: '/about',
-      iconImgUrl: '/assets/img/icons/hero_icon.png',
-    },
-    {
-      bgImageUrl: '/assets/img/Vinita-Website-Backgroud-2.png',
-      title: 'Welcome to Vinita Women’s <span>Hospital.</span>',
-      contactSubtitle:
-        'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
-      contactTitle: 'Receive Medical Service.',
-      contact: 'Call Us at: +91-9558908108 / 9116889079',
-      btnText1: 'Contact Now',
-      link: '/contact',
-      btnText2: 'Discover More',
-      link2: '/about',
-      iconImgUrl: '/assets/img/icons/hero_icon.png',
-    },
-    {
-      bgImageUrl: '/assets/img/Vinita-Website-Backgroud-2.png',
-      title: 'Welcome to Vinita Women’s <span>Hospital.</span>',
-      contactSubtitle:
-        'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
-      contactTitle: 'Receive Medical Service.',
-      contact: 'Call Us at: +91-9558908108 / 9116889079',
-      btnText1: 'Contact Now',
-      link: '/contact',
-      btnText2: 'Discover More',
-      link2: '/about',
+      btnText1: 'Book Your Appointment',
+      link: '/appointments',
+      btnText2: 'Contact Now',
+      link2: '/contact',
       iconImgUrl: '/assets/img/icons/hero_icon.png',
     },
   ],
@@ -114,23 +90,35 @@ export const aboutData = {
 export const countersData = [
   {
     iconUrl: '/assets/img/icons/counter_icon_1.png',
-    number: '567+',
-    title: 'Active Clients',
+    number: '500+',
+    suffix: '+',
+    title: 'Families Created',
+    description:
+      'Compassion drives us to help families grow. Over 500 families have trusted us on their fertility journey.',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_2.png',
-    number: '23K+',
-    title: 'Team Support',
+    number: '50+',
+    suffix: '+',
+    title: 'Years of Combined Expertise',
+    description:
+      'Innovation meets experience. Our team brings over 50 years of combined expertise in fertility and gynecology.',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_3.png',
-    number: '241+',
-    title: 'Projects Complete',
+    number: '1000+',
+    suffix: '+',
+    title: 'Successful Procedures',
+    description:
+      'Trust in results. Over 1,000 successful IVF and laparoscopic procedures performed with care.',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_4.png',
-    number: '16K+',
-    title: 'Award Winner',
+    number: '10+',
+    suffix: '+',
+    title: 'Awards & Recognitions',
+    description:
+      'Excellence recognized. Our commitment to quality has earned us over 10 prestigious awards.',
   },
 ];
 
@@ -146,17 +134,18 @@ export const serviceData = {
       index: '01',
       title: 'Infertility',
       subtitle:
-        'Advanced treatments and expert care to support your journey to parenthood.',
+        'Our advanced fertility services include the region’s first modular IVF lab, offering solutions like IVF, IUI, ICSI, and egg freezing. Our experts provide personalized care to help couples achieve successful conception and parenthood.',
       link: '/service/infertility-treatments',
     },
+
     {
-      backgroundImage: '/assets/img/home/service_bg-maternity.webp',
-      iconUrl: '/assets/img/home/icons/mother.png',
+      backgroundImage: '/assets/img/home/service_bg-laparoscopy.webp',
+      iconUrl: '/assets/img/home/icons/medical.png',
       index: '02',
-      title: 'Maternity',
+      title: 'Laparoscopy',
       subtitle:
-        'Guiding you through pregnancy with expert care for mother and baby.',
-      link: '/service/maternity-care',
+        'We use cutting-edge 3D laparoscopy in our modular operation theater for minimally invasive surgeries. This method offers quicker recovery, reduced pain, and fewer complications for a variety of gynecological conditions and surgeries.',
+      link: '/service/laparoscopy-surgery',
     },
     {
       backgroundImage: '/assets/img/home/service_bg-gynecology.webp',
@@ -164,17 +153,17 @@ export const serviceData = {
       index: '03',
       title: 'Gynecology',
       subtitle:
-        'Gentle, expert care for your gynecological health, ensuring your well-being at every stage.',
+        'We offer specialized treatment for all gynecological issues, including menstrual irregularities, fibroids, endometriosis, and cancers. Our holistic, patient-focused approach ensures the best possible care for women’s health at every stage.',
       link: '/service/gynecology',
     },
     {
-      backgroundImage: '/assets/img/home/service_bg-laparoscopy.webp',
-      iconUrl: '/assets/img/home/icons/medical.png',
+      backgroundImage: '/assets/img/home/service_bg-maternity.webp',
+      iconUrl: '/assets/img/home/icons/mother.png',
       index: '04',
-      title: 'Laparoscopy',
+      title: 'Maternity',
       subtitle:
-        'Compassionate care with advanced laparoscopic techniques to heal and restore.',
-      link: '/service/laparoscopy-surgery',
+        'We provide full-spectrum maternity care, covering prenatal, delivery, and post-delivery support. Our expert team ensures a smooth, safe pregnancy and birth experience, focusing on the health and well-being of both mother and baby.',
+      link: '/service/maternity-care',
     },
     // {
     //   backgroundImage: '/assets/img/service_bg.jpg',
@@ -869,7 +858,7 @@ const page = () => {
         topSpaceMd="110"
         bottomSpaceLg="80"
         bottomSpaceMd="120"
-        className={'cs_gray_bg cs_team_section position-relative'}
+        className={' cs_team_section position-relative'}
       >
         <IvfSection cardBg={'cs_gray_bg'} data={ivfData} />
       </Section>

@@ -48,7 +48,7 @@ const Service = ({ data, cardBg }) => {
                   <Link href={service.link}>{service.title}</Link>
                 </h3>
                 <p className="cs_iconbox_subtitle m-0">
-                  {service.subtitle.substr(0, 65) + '...'}
+                  {service.subtitle.substr(0, 80) + '...'}
                 </p>
               </div>
             </div>

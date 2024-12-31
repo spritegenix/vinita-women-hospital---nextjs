@@ -101,7 +101,7 @@ const serviceData = [
     ],
     mainImage: '/assets/img/home/service_bg-gynecology.webp',
     serviceDetails: [
-      'Our gynecology department offers expert care for conditions such as menstrual irregularities, PCOS, hormonal imbalances, and fibroids.',
+      'We offer specialized treatment for all gynecological issues, including menstrual irregularities, fibroids, endometriosis, and cancers. Our holistic, patient-focused approach ensures the best possible care for women’s health at every stage.',
       'We also specialize in minimally invasive surgeries for gynecological issues, ensuring safe and effective outcomes.',
     ],
     footerText:
@@ -140,7 +140,7 @@ const serviceData = [
     ],
     mainImage: '/assets/img/home/service_bg-maternity.webp',
     serviceDetails: [
-      'Our maternity services include expert care from preconception counseling to delivery and postnatal care, ensuring the health of both mother and baby.',
+      'We provide full-spectrum maternity care, covering prenatal, delivery, and post-delivery support. Our expert team ensures a smooth, safe pregnancy and birth experience, focusing on the health and well-being of both mother and baby.',
       'We provide support for normal, high-risk pregnancies, and Cesarean deliveries, with state-of-the-art monitoring and compassionate care.',
     ],
     footerText:
@@ -180,7 +180,7 @@ const serviceData = [
     ],
     mainImage: '/assets/img/home/service_bg-infertility.webp',
     serviceDetails: [
-      'We provide advanced fertility treatments such as IVF, IUI, and egg freezing to help couples achieve their dream of parenthood.',
+      'Our advanced fertility services include the region’s first modular IVF lab, offering solutions like IVF, IUI, ICSI, and egg freezing. Our experts provide personalized care to help couples achieve successful conception and parenthood.',
       'Our fertility experts offer personalized care with the latest technologies and genetic counseling for optimal outcomes.',
     ],
     footerText:
@@ -220,7 +220,7 @@ const serviceData = [
     ],
     mainImage: '/assets/img/home/service_bg-laparoscopy.webp',
     serviceDetails: [
-      'Our hospital offers advanced laparoscopic surgeries for various gynecological issues, ensuring faster recovery and minimal scarring.',
+      'We use cutting-edge 3D laparoscopy in our modular operation theater for minimally invasive surgeries. This method offers quicker recovery, reduced pain, and fewer complications for a variety of gynecological conditions and surgeries.',
       'We specialize in minimally invasive procedures such as hysterectomy, ovarian cyst removal, and endometriosis treatment.',
     ],
     footerText:
@@ -254,27 +254,27 @@ const serviceData = [
 const counterData = [
   {
     iconSrc: '/assets/img/icons/counter_icon_1.png',
-    countTo: 567,
+    countTo: 500,
     suffix: '+',
-    title: 'Active Clients',
+    title: 'Families Created',
   },
   {
     iconSrc: '/assets/img/icons/counter_icon_2.png',
-    countTo: 23,
-    suffix: 'K+',
-    title: 'Team Support',
+    countTo: 50,
+    suffix: '+',
+    title: 'Years of Combined Expertise',
   },
   {
     iconSrc: '/assets/img/icons/counter_icon_3.png',
-    countTo: 241,
+    countTo: 1000,
     suffix: '+',
-    title: 'Projects Completed',
+    title: 'Successful Procedures',
   },
   {
     iconSrc: '/assets/img/icons/counter_icon_4.png',
-    countTo: 16,
-    suffix: 'K+',
-    title: 'Award winner',
+    countTo: 10,
+    suffix: '+',
+    title: 'Awards & Recognitions',
   },
 ];
 
