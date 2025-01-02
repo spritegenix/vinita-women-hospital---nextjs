@@ -10,14 +10,14 @@ import { usePathname } from 'next/navigation';
 const About = ({ data }) => {
   const [toggle, setToggle] = useState(false);
   const pathname = usePathname();
-  const [iframeSrc, setIframeSrc] = useState('about:blank');
+  const [iframeSrc, setIframeSrc] = useState('');
 
   const handelClick = () => {
     setIframeSrc(`${data.videoUrl}`);
     setToggle(!toggle);
   };
   const handelClose = () => {
-    setIframeSrc('about:blank');
+    setIframeSrc('');
     setToggle(!toggle);
   };
   return (

@@ -18,16 +18,14 @@ const poppins = Poppins({
 export const metadata = {
   title: {
     absolute: '',
-    default:
-      'Vinita Women&#039;s Hospital | Dr. Chetan Gupta &amp; Dr. Neha Raval',
+    default: "Vinita Women's Hospital | Dr. Chetan Gupta | Dr. Neha Raval",
     template: '',
   },
   description:
     'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
 
   openGraph: {
-    title:
-      'Vinita Women&#039;s Hospital | Dr. Chetan Gupta &amp; Dr. Neha Raval',
+    title: "Vinita Women's Hospital | Dr. Chetan Gupta | Dr. Neha Raval",
     description:
       'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
     image: '/openGraphImage.jpg',

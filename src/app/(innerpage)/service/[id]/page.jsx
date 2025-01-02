@@ -246,7 +246,7 @@ const serviceData = [
     ],
     subtitle:
       'Offering minimally invasive surgeries for effective treatment and faster recovery.',
-    readMoreUrl: '/laparoscopic-surgery-details',
+    readMoreUrl: '/laparoscopy-surgery',
     readMoreText: 'READ MORE +',
   },
 ];

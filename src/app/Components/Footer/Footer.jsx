@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { BsTwitter } from 'react-icons/bs';
+import { BsInstagram, BsTwitter } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import {
   FaFacebookF,
@@ -223,7 +223,7 @@ const Footer = () => {
                 </Link>
                 <Link href={data.twitterHref} className="cs_center">
                   <i>
-                    <FaSquareInstagram color="#f97d82" />
+                    <BsInstagram color="#f97d82" />
                   </i>
                 </Link>
                 <Link href={data.instagramHref} className="cs_center">

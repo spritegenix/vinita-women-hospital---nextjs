@@ -64,7 +64,7 @@ export const aboutData = {
     'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
   service:
     'We offer a wide range of medical services tailored to meet your unique needs. Discover the difference our dedicated team can make in your journey to wellness.',
-  experienceYears: '5 years+ ',
+  experienceYears: '11 years+ ',
   experienceTitle: 'Experience',
   videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
   videoText: 'How We Work',
@@ -90,15 +90,15 @@ export const aboutData = {
 export const countersData = [
   {
     iconUrl: '/assets/img/icons/counter_icon_1.png',
-    number: '500+',
+    number: '5000+',
     suffix: '+',
-    title: 'Families Created',
+    title: 'Successful IVF Pregnancy',
     description:
       'Compassion drives us to help families grow. Over 500 families have trusted us on their fertility journey.',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_2.png',
-    number: '50+',
+    number: '22',
     suffix: '+',
     title: 'Years of Combined Expertise',
     description:
@@ -106,15 +106,15 @@ export const countersData = [
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_3.png',
-    number: '1000+',
+    number: '8000+',
     suffix: '+',
-    title: 'Successful Procedures',
+    title: 'Laparoscopic Surgery',
     description:
       'Trust in results. Over 1,000 successful IVF and laparoscopic procedures performed with care.',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_4.png',
-    number: '10+',
+    number: '20+',
     suffix: '+',
     title: 'Awards & Recognitions',
     description:
@@ -145,7 +145,7 @@ export const serviceData = {
       title: 'Laparoscopy',
       subtitle:
         'We use cutting-edge 3D laparoscopy in our modular operation theater for minimally invasive surgeries. This method offers quicker recovery, reduced pain, and fewer complications for a variety of gynecological conditions and surgeries.',
-      link: '/service/laparoscopy-surgery',
+      link: '/service/laparoscopic-surgery',
     },
     {
       backgroundImage: '/assets/img/home/service_bg-gynecology.webp',
@@ -213,42 +213,6 @@ export const ivfData = {
       backgroundImage: '/assets/img/home/service_bg-infertility.webp',
       iconUrl: '/assets/img/home/icons/infertility.png',
       index: '01',
-      title: 'Donor Treatments',
-      subtitle:
-        'The donor program may vary depending on the health problems of the infertile couple, from egg donation, and sperm donation to embryo donation.',
-      link: '/service/donor-treatments',
-    },
-    {
-      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
-      iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '02',
-      title: 'Egg Freezing / Cryopreservation',
-      subtitle:
-        'Egg freezing, also known as mature oocyte cryopreservation, is the medical process of harvesting eggs from one’s ovaries and freezing them until the female is ready for pregnancy.',
-      link: '/service/egg-freezing',
-    },
-    {
-      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
-      iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '03',
-      title: 'Laser Assisted Hatching (LAH)',
-      subtitle:
-        'The goal of LAH is to overcome all the odds that are preventing implantation or successful pregnancy. In laser-assisted hatching, a small crack is created before inserting the embryo in your uterus in the hope that this hatching helps in implantation of the embryo.',
-      link: '/service/laser-assisted-hatching',
-    },
-    {
-      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
-      iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '04',
-      title: 'Ovulation Induction Timed Intercourse',
-      subtitle:
-        'A timed intercourse cycle is a strategic way of optimizing your fertile window by using medication and guidance from a medical team to stimulate egg production by the ovaries, induce ovulation, and improve chances for natural conception.',
-      link: '/service/ovulation-induction',
-    },
-    {
-      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
-      iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '05',
       title: 'IUI (Intrauterine Insemination)',
       subtitle:
         'Intrauterine insemination (IUI) is a procedure in Assisted Reproductive Technology (ART) wherein the best quality sperms are introduced into the uterus to fertilize the egg. The objective here is to bring the sperms as close to the egg as possible.',
@@ -257,7 +221,17 @@ export const ivfData = {
     {
       backgroundImage: '/assets/img/home/service_bg-infertility.webp',
       iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '06',
+      index: '02',
+      title: 'IVF (In Vitro Fertilization)',
+      subtitle:
+        'In vitro fertilization (IVF) is a complex series of procedures used to help with fertility or prevent genetic problems and assist with the conception of a child. During IVF, mature eggs are collected (retrieved) from ovaries and fertilized by sperm in a lab. Then the fertilized egg (embryo) or eggs (embryos) are transferred to a uterus. One full cycle of IVF takes about three weeks.',
+      link: '/service/ivf-treatments',
+    },
+
+    {
+      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
+      iconUrl: '/assets/img/home/icons/infertility.png',
+      index: '03',
       title: 'ICSI (Intracytoplasmic Sperm Injection)',
       subtitle:
         'Intracytoplasmic sperm injection (ICSI) is a specialized form of In Vitro Fertilization (IVF) in which a single sperm is injected directly into the egg for fertilization. ICSI is a safe and successful method for couples with male factor infertility, and can enhance the chances of fertilization for couples who had poor fertilization in a prior IVF round.',
@@ -266,16 +240,7 @@ export const ivfData = {
     {
       backgroundImage: '/assets/img/home/service_bg-infertility.webp',
       iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '07',
-      title: 'Laparoscopy',
-      subtitle:
-        'Laparoscopy is a surgical and diagnostic procedure that enables the doctor to check a woman’s reproductive system. Laparoscopy can diagnose: Blocked fallopian tubes, Hydrosalpinx, Scar tissue build-up, Adhesions, Endometriosis, Fibroid, Ovarian cyst, Other anatomical abnormalities of the reproductive system.',
-      link: '/service/laparoscopy',
-    },
-    {
-      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
-      iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '08',
+      index: '04',
       title: 'Pre-Implantation Genetic Screening',
       subtitle:
         'Embryos can be tested for abnormal chromosomes before they are transferred to the uterus. This is called preimplantation genetic testing, or PGT. It is done in a lab, using in vitro fertilization (IVF).',
@@ -284,11 +249,47 @@ export const ivfData = {
     {
       backgroundImage: '/assets/img/home/service_bg-infertility.webp',
       iconUrl: '/assets/img/home/icons/infertility.png',
-      index: '09',
-      title: 'IVF (In Vitro Fertilization)',
+      index: '05',
+      title: 'Laparoscopy',
       subtitle:
-        'In vitro fertilization (IVF) is a complex series of procedures used to help with fertility or prevent genetic problems and assist with the conception of a child. During IVF, mature eggs are collected (retrieved) from ovaries and fertilized by sperm in a lab. Then the fertilized egg (embryo) or eggs (embryos) are transferred to a uterus. One full cycle of IVF takes about three weeks.',
-      link: '/service/ivf-treatments',
+        'Laparoscopy is a surgical and diagnostic procedure that enables the doctor to check a woman’s reproductive system. Laparoscopy can diagnose: Blocked fallopian tubes, Hydrosalpinx, Scar tissue build-up, Adhesions, Endometriosis, Fibroid, Ovarian cyst, Other anatomical abnormalities of the reproductive system.',
+      link: '/service/laparoscopy',
+    },
+    {
+      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
+      iconUrl: '/assets/img/home/icons/infertility.png',
+      index: '06',
+      title: 'Egg Freezing / Cryopreservation',
+      subtitle:
+        'Egg freezing, also known as mature oocyte cryopreservation, is the medical process of harvesting eggs from one’s ovaries and freezing them until the female is ready for pregnancy.',
+      link: '/service/egg-freezing',
+    },
+    {
+      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
+      iconUrl: '/assets/img/home/icons/infertility.png',
+      index: '07',
+      title: 'Laser Assisted Hatching (LAH)',
+      subtitle:
+        'The goal of LAH is to overcome all the odds that are preventing implantation or successful pregnancy. In laser-assisted hatching, a small crack is created before inserting the embryo in your uterus in the hope that this hatching helps in implantation of the embryo.',
+      link: '/service/laser-assisted-hatching',
+    },
+    {
+      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
+      iconUrl: '/assets/img/home/icons/infertility.png',
+      index: '08',
+      title: 'Embryo Biopsy',
+      subtitle:
+        'Embryo biopsy is a crucial procedure used in assisted reproductive technologies (ART), particularly during in vitro fertilization (IVF). It involves the extraction of one or more cells from an embryo to assess its genetic or chromosomal makeup. This technique helps embryologists and medical professionals determine the health and viability of an embryo before implantation.',
+      link: '/service/ovulation-induction',
+    },
+    {
+      backgroundImage: '/assets/img/home/service_bg-infertility.webp',
+      iconUrl: '/assets/img/home/icons/infertility.png',
+      index: '09',
+      title: 'Donor Treatments',
+      subtitle:
+        'The donor program may vary depending on the health problems of the infertile couple, from egg donation, and sperm donation to embryo donation.',
+      link: '/service/donor-treatments',
     },
   ],
   footerIcon: '/assets/img/icons/service_footer_icon_1.png',
@@ -525,7 +526,7 @@ const projectData = {
 };
 
 export const ctaData1 = {
-  videoLink: 'https://youtu.be/1-U0rPskHV8?si=g_zYuW6oEqkPY8vR',
+  videoLink: 'https://youtu.be/IpoeMo8-R3w?si=59hT_11cFhTaVMIe',
   videoButtonText: 'WATCH VIDEO',
   subtitle: 'OUR WATCH VIDEO',
   title: 'Professional Medical Care, Your Health is Our Priority',

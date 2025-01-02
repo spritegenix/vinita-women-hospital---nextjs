@@ -18,6 +18,7 @@ import {
   FaYoutube,
 } from 'react-icons/fa6';
 import { HiMiniMagnifyingGlass } from 'react-icons/hi2';
+import { BsInstagram } from 'react-icons/bs';
 
 const Header = ({ isTopBar, variant }) => {
   const [isShowMobileMenu, setIsShowMobileMenu] = useState(false);
@@ -161,7 +162,7 @@ const Header = ({ isTopBar, variant }) => {
                       className="cs_center"
                     >
                       <i>
-                        <FaSquareInstagram />
+                        <BsInstagram />
                       </i>
                     </Link>
                     <Link
