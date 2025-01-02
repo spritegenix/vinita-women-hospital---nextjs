@@ -175,7 +175,7 @@ const serviceData = [
     services: [
       { title: 'In-Vitro Fertilization (IVF)' },
       { title: 'Intrauterine Insemination (IUI)' },
-      { title: 'Egg Freezing' },
+      { title: 'Egg / Semen Freezing / Cryopreservation' },
       { title: 'Genetic Counseling' },
     ],
     mainImage: '/assets/img/home/service_bg-infertility.webp',

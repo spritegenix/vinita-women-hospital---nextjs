@@ -259,7 +259,7 @@ export const ivfData = {
       backgroundImage: '/assets/img/home/service_bg-infertility.webp',
       iconUrl: '/assets/img/home/icons/infertility.png',
       index: '06',
-      title: 'Egg Freezing / Cryopreservation',
+      title: 'Egg / Semen Freezing / Cryopreservation',
       subtitle:
         'Egg freezing, also known as mature oocyte cryopreservation, is the medical process of harvesting eggs from one’s ovaries and freezing them until the female is ready for pregnancy.',
       link: '/service/egg-freezing',

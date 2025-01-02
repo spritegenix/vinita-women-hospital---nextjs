@@ -142,7 +142,8 @@ const Footer = () => {
         title: 'The Medical Of This Working Health',
       },
     ],
-    copyrightText: "Copyright © 2024 Vinita Women's Hospital",
+    copyrightText:
+      "Copyright © 2024 Vinita Women's Hospital | Designed and Developed by <a href='https://postiview.com/' target='_blank'>PostiView</a>'",
     footerMenu: [
       { href: '/about', text: 'Privacy Policy' },
       { href: '/', text: 'Terms & Conditions' },
@@ -283,7 +284,13 @@ const Footer = () => {
       <div className="cs_footer_bottom blackfooter">
         <div className="container">
           <div className="cs_footer_bottom_in">
-            <p className="cs_footer_copyright mb-0">{data.copyrightText}</p>
+            <p className="cs_footer_copyright mb-0">
+              Copyright © 2024 Vinita Women&apos;s Hospital | Designed and
+              Developed by{' '}
+              <a href="https://postiview.com/" target="_blank">
+                PostiView
+              </a>
+            </p>
             <ul className="cs_footer_menu cs_mp_0">
               {data.footerMenu.map((item, index) => (
                 <li key={index}>
