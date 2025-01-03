@@ -744,6 +744,50 @@ export const imageSwiperSection = [
     id: 9,
     image: '/assets/img/home/gallery/Vinita-Womens-Hospital-Waiting-Room.jpg',
   },
+  {
+    id: 10,
+    image: '/assets/img/home/gallery/10.webp',
+  },
+  {
+    id: 11,
+    image: '/assets/img/home/gallery/11.webp',
+  },
+  {
+    id: 12,
+    image: '/assets/img/home/gallery/12.webp',
+  },
+  {
+    id: 13,
+    image: '/assets/img/home/gallery/13.webp',
+  },
+  {
+    id: 14,
+    image: '/assets/img/home/gallery/14.webp',
+  },
+  {
+    id: 15,
+    image: '/assets/img/home/gallery/15.jpg',
+  },
+  {
+    id: 16,
+    image: '/assets/img/home/gallery/16.webp',
+  },
+  {
+    id: 17,
+    image: '/assets/img/home/gallery/17.webp',
+  },
+  {
+    id: 18,
+    image: '/assets/img/home/gallery/18.webp',
+  },
+  {
+    id: 19,
+    image: '/assets/img/home/gallery/19.webp',
+  },
+  {
+    id: 20,
+    image: '/assets/img/home/gallery/20.webp',
+  },
 ];
 
 const blogsData = {

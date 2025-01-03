@@ -32,6 +32,7 @@ const Gallery = () => {
                 width={400}
                 height={600}
                 alt={`Gallery Image ${imageSrc.id}`}
+                className="w-full h-auto"
               />
             </div>
           ))}
