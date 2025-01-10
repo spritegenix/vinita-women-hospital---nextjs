@@ -646,65 +646,69 @@ const medicalTabsData = {
 export const faqSection = [
   {
     id: '9311',
-    question: 'Which is the best IVF center or fertility clinic in Palanpur?',
+    question: 'Which is the Best IVF Center or Fertility Clinic in Palanpur?',
     answer:
-      'At Vinita Women’s Hospital, we provide Palanpur’s best IF treatment facilities at the most affordable rate with advanced technologies. For more info, contact us.',
+      'Vinita Women’s Hospital in Palanpur is one of the best IVF centers. It has the region’s first modular IVF lab and advanced technology to help women with fertility problems. The hospital has a team of experienced doctors who provide high-quality care. If you are looking for IVF treatment, you can visit Vinita Women’s Hospital. For more information, call +91-9558908108 or +91-9116889079, or email vinitawomens.hospital@gmail.com.',
   },
   {
     id: '9312',
-    question: 'What is the cost of IVF in India?',
+    question: 'What is the Average Cost of IVF Treatment in India?',
     answer:
-      'On average, each IVF cycle costs approximately 70,000 to 1,25,000 INR. The cost of IVF treatment also varies from hospital to hospital.',
+      'In India, the cost of IVF treatment can be between ₹1,00,000 and ₹3,00,000. The price depends on factors like the clinic, the treatment plan, and the patient’s needs. IVF is an advanced treatment for couples who have trouble having a baby. To know more about the cost and get a customized treatment plan, you can contact Vinita Women’s Hospital by calling +91-9558908108 or +91-9116889079, or by emailing vinitawomens.hospital@gmail.com.',
   },
   {
     id: '9313',
-    question: 'What are the signs of successful IVF?',
+    question: 'What Are the Early Signs of a Successful IVF Procedure?',
     answer:
-      'Important signs of successful IVF cycle:\n• Bleeding or spotting. Light bleeding or spotting is often the first sign of pregnancy.\n• Cramping.\n• Sore breasts.\n• Tiredness or fatigue.\n• Nausea.\n• Bloating.\n• Changes in discharge.\n• Increased need to pee.',
+      'After IVF, signs of success can include a missed period, light bleeding, or mild cramps. You may also feel tired or have breast tenderness. A blood test can confirm pregnancy. These signs show that the embryo may have implanted successfully in the womb. If you are going through IVF, it’s important to follow your doctor’s advice for the best results. For more guidance, contact Vinita Women’s Hospital at +91-9116889079.',
   },
   {
     id: '9314',
-    question: 'Are there any risks in having a baby through IVF process?',
+    question:
+      'Are There Any Risks Involved in Having a Baby Through the IVF Process?',
     answer:
-      'Research indicates that IVF-conceived children are on par with the general population in academic achievement as well as with regards to behavioral and psychological health.',
+      'IVF is generally safe but can have some risks. These include multiple pregnancies (twins or more), ovarian hyperstimulation syndrome (OHSS), or the possibility of an ectopic pregnancy. However, many people go through IVF without problems. Your doctor will monitor you carefully to reduce these risks. To learn more about IVF and its risks, you can consult with the experts at Vinita Women’s Hospital in Palanpur.',
   },
   {
     id: '9315',
-    question: 'When is IVF needed?',
+    question: 'When is IVF Treatment Recommended for Couples?',
     answer:
-      'Because the IVF process bypasses the fallopian tubes (it was originally developed for women with blocked or missing fallopian tubes), it is the procedure of choice for those with fallopian...',
+      'IVF is recommended for couples who are unable to get pregnant naturally. It is often used when the woman has blocked fallopian tubes, or the man has low sperm count. It may also be used for women with endometriosis or couples who have tried other treatments without success. If you think IVF could help you, schedule a consultation with Vinita Women’s Hospital. The doctors will guide you on the best treatment option.',
   },
   {
     id: '9316',
-    question: 'Is IVF a painful procedure?',
+    question: 'How Long Should You Rest After a Laparoscopy Procedure?',
     answer:
-      'Patients may experience some mild discomfort as a result of the injections, but the procedures themselves (egg retrieval and embryo transfer) are done under anesthesia or sedation, so they are generally pain-free.',
+      'After a laparoscopy, most people can start moving around after a day or two. But it is important to rest for about 1-2 weeks to fully recover. You can return to work or daily activities once your doctor gives you the okay. Laparoscopy is a small surgery, so recovery is usually faster compared to other surgeries. For detailed advice on how to rest and recover after laparoscopy, contact Vinita Women’s Hospital.',
   },
   {
     id: '9317',
-    question: 'What is the success rate of IVF?',
+    question:
+      'Why is a Laparoscopic Hysterectomy Better Than an Open Hysterectomy?',
     answer:
-      'Success rates depend on various factors, including age, fertility issues, and clinic practices. Generally, the success rate for women under 35 is around 40-50% per cycle, and it declines with age.',
+      'Laparoscopic hysterectomy is a safer, quicker, and less painful option compared to an open hysterectomy. It involves smaller cuts, which reduces scarring. Recovery time is also shorter, allowing patients to return to normal activities faster. With laparoscopic surgery, the risk of infection is lower, and there’s less blood loss. If you need a hysterectomy, discuss with the experts at Vinita Women’s Hospital for the best treatment options.',
   },
   {
     id: '9318',
-    question: 'Can IVF fail?',
+    question:
+      'How Many Times is an Ultrasound Typically Performed During Pregnancy?',
     answer:
-      'Yes, IVF can fail due to various reasons, such as poor embryo quality, implantation issues, or underlying health conditions. Consultation with a fertility specialist can provide insights into the reasons for failure and next steps.',
+      'During a normal pregnancy, an ultrasound is done about 3-5 times. The first ultrasound is to check the baby’s heartbeat. Later ultrasounds help doctors track the baby’s growth, check for any problems, and ensure the baby’s health. Vinita Women’s Hospital uses advanced 3D/4D sonography to monitor pregnancy and detect any issues early. For more information, contact the hospital.',
   },
   {
     id: '9319',
-    question: 'How long does the IVF process take?',
+    question: 'What is the Average Cost of Cesarean Delivery in Palanpur?',
     answer:
-      'The IVF process typically takes about 4 to 6 weeks from the start of medication to embryo transfer, but the timeline may vary depending on individual circumstances.',
+      'The cost of a cesarean delivery in Palanpur generally ranges from ₹30,000 to ₹80,000. The price can vary depending on the hospital and your medical needs. Cesarean delivery is sometimes needed when there are complications during pregnancy or labor. If you are planning for a cesarean delivery, consult with the doctors at Vinita Women’s Hospital to understand the cost and treatment options.',
   },
   {
     id: '9320',
-    question: 'What are the common side effects of IVF treatment?',
+    question: 'How Soon Should You Visit a Doctor After Confirming Pregnancy?',
     answer:
-      'Common side effects include:\n• Hormonal changes causing mood swings.\n• Bloating.\n• Mild cramping.\n• Breast tenderness.\n• Fatigue.\n• Rarely, ovarian hyperstimulation syndrome (OHSS).',
+      'It’s best to see a doctor within the first 6-8 weeks of pregnancy. Early visits help doctors check the baby’s health, start necessary tests, and provide important guidance on nutrition and lifestyle. Regular visits ensure that you and your baby stay healthy throughout the pregnancy. To schedule an appointment, contact Vinita Women’s Hospital in Palanpur at +91-9558908108 or +91-9116889079.',
   },
 ];
+
 export const imageSwiperSection = [
   {
     id: 1,
