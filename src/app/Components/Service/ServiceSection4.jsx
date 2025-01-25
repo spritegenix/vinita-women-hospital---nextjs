@@ -87,9 +87,7 @@ const ServiceSection4 = ({ data }) => {
                         </div>
                         <h3 className="iconbox_index">{box.index}</h3>
                       </div>
-                      <h3 className="cs_iconbox_title">
-                        <Link href={box.link}>{box.title}</Link>
-                      </h3>
+                      <h3 className="cs_iconbox_title">{box.title}</h3>
                       <p className="cs_iconbox_subtitle m-0">{box.subtitle}</p>
                     </div>
                   </div>

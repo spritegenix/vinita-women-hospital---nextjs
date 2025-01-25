@@ -204,7 +204,6 @@ export const serviceData = {
   footerLink: '/service',
   footerLinkText: 'SEE MORE',
 };
-
 export const ivfData = {
   subtitle: 'Treatments',
   title: 'Infertility Treatments provided by Vinita Women’s Hospital',
@@ -215,7 +214,7 @@ export const ivfData = {
       index: '01',
       title: 'IUI (Intrauterine Insemination)',
       subtitle:
-        'Intrauterine insemination (IUI) is a procedure in Assisted Reproductive Technology (ART) wherein the best quality sperms are introduced into the uterus to fertilize the egg. The objective here is to bring the sperms as close to the egg as possible.',
+        'Intrauterine insemination (IUI) introduces the best-quality sperms into the uterus to help fertilize the egg and boost chances of conception.',
       link: '/service/iui-treatments',
     },
     {
@@ -224,7 +223,7 @@ export const ivfData = {
       index: '02',
       title: 'IVF (In Vitro Fertilization)',
       subtitle:
-        'In vitro fertilization (IVF) is a complex series of procedures used to help with fertility or prevent genetic problems and assist with the conception of a child. During IVF, mature eggs are collected (retrieved) from ovaries and fertilized by sperm in a lab. Then the fertilized egg (embryo) or eggs (embryos) are transferred to a uterus. One full cycle of IVF takes about three weeks.',
+        'In vitro fertilization (IVF) is a procedure where eggs are fertilized in a lab and then transferred to the uterus to aid conception.',
       link: '/service/ivf-treatments',
     },
 
@@ -234,7 +233,7 @@ export const ivfData = {
       index: '03',
       title: 'ICSI (Intracytoplasmic Sperm Injection)',
       subtitle:
-        'Intracytoplasmic sperm injection (ICSI) is a specialized form of In Vitro Fertilization (IVF) in which a single sperm is injected directly into the egg for fertilization. ICSI is a safe and successful method for couples with male factor infertility, and can enhance the chances of fertilization for couples who had poor fertilization in a prior IVF round.',
+        'ICSI involves injecting a single sperm directly into the egg to enhance fertilization, especially for male factor infertility.',
       link: '/service/icsi-treatments',
     },
     {
@@ -243,7 +242,7 @@ export const ivfData = {
       index: '04',
       title: 'Pre-Implantation Genetic Screening',
       subtitle:
-        'Embryos can be tested for abnormal chromosomes before they are transferred to the uterus. This is called preimplantation genetic testing, or PGT. It is done in a lab, using in vitro fertilization (IVF).',
+        'Preimplantation genetic testing (PGT) checks embryos for abnormal chromosomes in a lab using IVF before transfer.',
       link: '/service/preimplantation-genetic-screening',
     },
     {
@@ -252,7 +251,7 @@ export const ivfData = {
       index: '05',
       title: 'Laparoscopy',
       subtitle:
-        'Laparoscopy is a surgical and diagnostic procedure that enables the doctor to check a woman’s reproductive system. Laparoscopy can diagnose: Blocked fallopian tubes, Hydrosalpinx, Scar tissue build-up, Adhesions, Endometriosis, Fibroid, Ovarian cyst, Other anatomical abnormalities of the reproductive system.',
+        'Laparoscopy is a surgical procedure to diagnose and treat reproductive conditions like blocked tubes, cysts, and fibroids.',
       link: '/service/laparoscopy',
     },
     {
@@ -261,7 +260,7 @@ export const ivfData = {
       index: '06',
       title: 'Egg / Semen Freezing / Cryopreservation',
       subtitle:
-        'Egg freezing, also known as mature oocyte cryopreservation, is the medical process of harvesting eggs from one’s ovaries and freezing them until the female is ready for pregnancy.',
+        'Egg or semen freezing preserves reproductive cells for future use, enabling planning for pregnancy at a later time.',
       link: '/service/egg-freezing',
     },
     {
@@ -270,7 +269,7 @@ export const ivfData = {
       index: '07',
       title: 'Laser Assisted Hatching (LAH)',
       subtitle:
-        'The goal of LAH is to overcome all the odds that are preventing implantation or successful pregnancy. In laser-assisted hatching, a small crack is created before inserting the embryo in your uterus in the hope that this hatching helps in implantation of the embryo.',
+        'Laser-assisted hatching creates a small crack in the embryo’s shell to help with implantation and boost pregnancy success.',
       link: '/service/laser-assisted-hatching',
     },
     {
@@ -279,7 +278,7 @@ export const ivfData = {
       index: '08',
       title: 'Embryo Biopsy',
       subtitle:
-        'Embryo biopsy is a crucial procedure used in assisted reproductive technologies (ART), particularly during in vitro fertilization (IVF). It involves the extraction of one or more cells from an embryo to assess its genetic or chromosomal makeup. This technique helps embryologists and medical professionals determine the health and viability of an embryo before implantation.',
+        'Embryo biopsy removes cells from an embryo to assess its health and genetics before implantation during IVF.',
       link: '/service/ovulation-induction',
     },
     {
@@ -288,7 +287,7 @@ export const ivfData = {
       index: '09',
       title: 'Donor Treatments',
       subtitle:
-        'The donor program may vary depending on the health problems of the infertile couple, from egg donation, and sperm donation to embryo donation.',
+        'The donor program offers options like egg, sperm, or embryo donation to help couples overcome infertility challenges.',
       link: '/service/donor-treatments',
     },
   ],
@@ -976,10 +975,10 @@ const page = () => {
       {/* Start FAQ Solution */}
       <Section
         className="position-relative"
-        topSpaceLg="70"
-        topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
+        topSpaceLg="0"
+        topSpaceMd="50"
+        bottomSpaceLg="50"
+        bottomSpaceMd="50"
       >
         <FaqSection data={faqSection} />
       </Section>

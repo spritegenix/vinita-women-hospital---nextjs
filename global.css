@@ -4,20 +4,45 @@
   object-fit: contain !important;
   scale: 1.2;
 }
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+  border-radius: 1rem;
+}
+.accordion-item:first-of-type{
+  border-radius: 1rem;
+  border: none !important;
+}
+.accordion-item:first-of-type .accordion-button{
+  border-top: none !important; /* Removes top border specifically for the first button */
+}
+
 .accordion-button {
   color: #695a55 !important;
   font-weight: 600 !important;
+  background-color: transparent;
+  border-top: 2px solid red;
+  border-radius: 1rem;
+  padding: 0 7px;
+
 }
 .answerbox {
   background-color: #ffffff !important;
   color: #695a55;
   /* font-weight: 600; */
 }
+.accordion-body{
+  padding-top: 0;
+}
 .accordion-item {
-  border: 2px solid var(--blue-color) !important;
+  /* border: 2px solid var(--blue-color) !important; */
   border-radius: 1rem;
   overflow: hidden;
-  margin: 1rem 0;
+  margin: 0.2rem 0;
+  border: none !important;
+  background-color: transparent;
+}
+.accordion{
+  background-color: transparent !important;
+  overflow: hidden;
 }
 
 .accordion-button:not(.collapsed) {
@@ -164,5 +189,9 @@
   .gallery-container {
     column-count: 1;
     max-width: 90%;
+  }
+  .accordion-button{
+    line-height: 2rem;
+    padding: 0.7rem;
   }
 }

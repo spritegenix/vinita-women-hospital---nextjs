@@ -70,10 +70,13 @@
     height: max-content;
   }
 }
-@media (max-width:425px) {
+@media (max-width:768px) {
   .backgroundedited{
     background-position: left !important;
   }
+}
+@media (max-width:425px) {
+
   .ivfboxes{
     height: max-content;
   }
@@ -82,7 +85,7 @@
 
 @media (min-width:1025px) {
   .ivfboxes{
-    height: 24rem;
+    height: 16rem;
   }
 }
 .blackfooter{

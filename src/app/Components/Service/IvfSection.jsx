@@ -41,7 +41,7 @@ const IvfSection = ({ data, cardBg }) => {
                   <h3 className="iconbox_index">{service.index}</h3>
                 </div>
                 <h3 className="cs_iconbox_title">{service.title}</h3>
-                <p className="cs_iconbox_subtitle m-0">{service.subtitle}</p>
+                <p className="cs_iconbox_subtitle">{service.subtitle}</p>
               </div>
             </div>
           ))}

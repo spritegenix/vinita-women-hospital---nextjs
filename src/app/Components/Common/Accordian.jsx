@@ -6,13 +6,16 @@ import SectionHeading from '../SectionHeading';
 
 function FaqSection({ data }) {
   return (
-    <div>
+    <div className="col-lg-8 col mx-auto">
       <SectionHeading
         SectionSubtitle="Questions"
         SectionTitle="FAQ'S"
         variant={'text-center'}
       />
-      <Accordion className="container">
+      <Accordion
+        className="container p-0 mt-5 "
+        style={{ border: '2px solid red', borderRadius: '2rem' }}
+      >
         {data.map((item) => (
           <AccordionItem eventKey={item.id} key={item.id}>
             <AccordionHeader className="questionbox">
