@@ -238,7 +238,8 @@ const serviceData = [
       {
         index: '02',
         title: 'Surgical Expertise',
-        subtitle: 'Expert surgical team for gynecological issues.',
+        subtitle:
+          'Expert surgical team for gynecological health and wellness issues.',
         icon: '/assets/img/home/icons/operation-theatre.png',
         bgImage: '',
         link: '/gynecological-surgeries',

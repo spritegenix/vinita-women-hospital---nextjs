@@ -23,10 +23,10 @@ const IvfSection = ({ data, cardBg }) => {
               >
                 <div
                   className="cs_iconbox_overlay cs_bg_filed"
-                  style={{
-                    backgroundImage: `url(${service.backgroundImage})`,
-                    backgroundSize: 'cover',
-                  }}
+                  // style={{
+                  //   backgroundImage: `url(${service.backgroundImage})`,
+                  //   backgroundSize: 'cover',
+                  // }}
                 />
                 <div className="cs_iconbox_shape" />
                 <div className="cs_iconbox_header d-flex align-items-center justify-content-between">

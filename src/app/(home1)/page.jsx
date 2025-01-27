@@ -223,7 +223,7 @@ export const ivfData = {
       index: '02',
       title: 'IVF (In Vitro Fertilization)',
       subtitle:
-        'In vitro fertilization (IVF) is a procedure where eggs are fertilized in a lab and then transferred to the uterus to aid conception.',
+        'In vitro fertilization (IVF) is a procedure where eggs are fertilized in a lab and then transferred to the uterus to aid conception successfully and effectively.',
       link: '/service/ivf-treatments',
     },
 
@@ -251,7 +251,7 @@ export const ivfData = {
       index: '05',
       title: 'Laparoscopy',
       subtitle:
-        'Laparoscopy is a surgical procedure to diagnose and treat reproductive conditions like blocked tubes, cysts, and fibroids.',
+        'Laparoscopy is a surgical procedure to diagnose and treat reproductive conditions like blocked tubes, cysts, fibroids, and other related abnormalities.',
       link: '/service/laparoscopy',
     },
     {
@@ -904,8 +904,8 @@ const page = () => {
       <Section
         topSpaceLg="70"
         topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
+        bottomSpaceLg="50"
+        bottomSpaceMd="50"
         className={' cs_team_section position-relative'}
       >
         <IvfSection cardBg={'cs_gray_bg'} data={ivfData} />
@@ -914,8 +914,8 @@ const page = () => {
 
       {/* Start Team Section */}
       <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
+        topSpaceLg="10"
+        topSpaceMd="50"
         className={'cs_team_section position-relative'}
       >
         <TeamsSection1 data={teamData} />

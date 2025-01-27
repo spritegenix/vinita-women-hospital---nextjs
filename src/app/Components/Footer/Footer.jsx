@@ -153,7 +153,7 @@ const Footer = () => {
   return (
     <footer
       className="cs_footer cs_blue_bg cs_bg_filed cs_white_color"
-      style={{ backgroundImage: `url(${data.backgroundImage})` }}
+      // style={{ backgroundImage: `url(${data.backgroundImage})` }}
     >
       <div className="container">
         <div className="cs_footer_row">
@@ -214,22 +214,22 @@ const Footer = () => {
               <div className="cs_social_btns cs_style_1">
                 <Link href={data.facebookHref} className="cs_center">
                   <i>
-                    <FaFacebookF color="#f97d82" />
+                    <FaFacebookF color="#ffff" />
                   </i>
                 </Link>
                 <Link href={data.pinterestHref} className="cs_center">
                   <i>
-                    <FaYoutube color="#f97d82" />
+                    <FaYoutube color="#ffff" />
                   </i>
                 </Link>
                 <Link href={data.twitterHref} className="cs_center">
                   <i>
-                    <BsInstagram color="#f97d82" />
+                    <BsInstagram color="#ffff" />
                   </i>
                 </Link>
                 <Link href={data.instagramHref} className="cs_center">
                   <i>
-                    <FaMap color="#f97d82" />
+                    <FaMap color="#ffff" />
                   </i>
                 </Link>
               </div>

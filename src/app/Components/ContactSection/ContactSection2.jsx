@@ -72,7 +72,7 @@ const ContactSection2 = () => {
               </div>
             </form>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 d-none d-lg-flex">
             <div
               className="cs_solution_thumbnail cs_bg_filed"
               data-background="/assets/img/home/medical_solution_1.webp"

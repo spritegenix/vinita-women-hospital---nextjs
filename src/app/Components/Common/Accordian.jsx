@@ -6,7 +6,7 @@ import SectionHeading from '../SectionHeading';
 
 function FaqSection({ data }) {
   return (
-    <div className="col-lg-8 col mx-auto">
+    <div className="col-lg-8 col-11 mx-auto">
       <SectionHeading
         SectionSubtitle="Questions"
         SectionTitle="FAQ'S"

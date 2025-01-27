@@ -39,7 +39,7 @@ const MedicalTabSection = ({ data }) => {
               </li>
             ))}
           </ul>
-          <div className="cs_height_50 cs_height_lg_50" />
+          <div className="cs_height_50 cs_height_lg_50" id={activeTab} />
           <div className="tab-content">
             {data.tabsData.map((tab, index) => (
               <div
@@ -70,7 +70,7 @@ const MedicalTabSection = ({ data }) => {
                                 <i>
                                   <Image
                                     src={point.icon}
-                                    alt="img"
+                                    alt={tab.title}
                                     width={20}
                                     height={17}
                                   />

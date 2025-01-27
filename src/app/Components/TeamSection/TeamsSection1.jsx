@@ -28,19 +28,17 @@ function TeamSection1({ data }) {
                       className={`cs_team_shape cs_blue_bg
                       `}
                     />
-                    <Link href={item.link} className="cs_team_thumbnail">
+                    <div className="cs_team_thumbnail">
                       <Image
                         src={item.imageUrl}
                         alt="img"
                         width={325}
                         height={429}
                       />
-                    </Link>
+                    </div>
                     <div className="cs_team_bio text-center pt-3">
                       <h5 className="mb-0">
-                        <Link href={item.link} className="fw-1">
-                          {item.name}
-                        </Link>
+                        <div className="fw-1">{item.name}</div>
                       </h5>
                       <p className="cs_team_subtitle">{item.profession}</p>
                     </div>
