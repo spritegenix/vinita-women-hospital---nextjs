@@ -14,7 +14,7 @@ function FaqSection({ data }) {
       />
       <Accordion
         className="container p-0 mt-5 "
-        style={{ border: '2px solid red', borderRadius: '2rem' }}
+        style={{ border: '2px solid #f97d82', borderRadius: '2rem' }}
       >
         {data.map((item) => (
           <AccordionItem eventKey={item.id} key={item.id}>
