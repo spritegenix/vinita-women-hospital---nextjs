@@ -198,3 +198,8 @@
 .cs_footer_contact{
   color:#695a55
 }
+
+.activedivclass{
+position: relative;
+top: -40px;
+}

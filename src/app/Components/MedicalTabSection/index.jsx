@@ -6,10 +6,10 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import Link from 'next/link';
 import Image from 'next/image';
-
+import useIsMobile from '../useIsMobile';
 const MedicalTabSection = ({ data }) => {
   const [activeTab, setActiveTab] = useState('infertility');
-
+  const isMobile = useIsMobile();
   return (
     <>
       <div className="container">
@@ -18,8 +18,9 @@ const MedicalTabSection = ({ data }) => {
           SectionTitle={data.title}
           variant={'text-center'}
         />
-
+        {!isMobile && <div id={activeTab}></div>}
         <div className="cs_height_50 cs_height_lg_50" />
+
         <div className="cs_tabs">
           <ul className="cs_tab_links cs_style_1 cs_bold">
             {data.tabsTitle.map((tab, index) => (
@@ -34,12 +35,15 @@ const MedicalTabSection = ({ data }) => {
                   <span className="cs_tab_link_icon cs_center">
                     <Image src={tab.iconUrl} alt="img" width={40} height={40} />
                   </span>
+
                   <span>{tab.label}</span>
                 </Link>
               </li>
             ))}
+            {isMobile && <div className="activedivclass" id={activeTab}></div>}
           </ul>
-          <div className="cs_height_50 cs_height_lg_50" id={activeTab} />
+
+          <div className="cs_height_50 cs_height_lg_50" />
           <div className="tab-content">
             {data.tabsData.map((tab, index) => (
               <div

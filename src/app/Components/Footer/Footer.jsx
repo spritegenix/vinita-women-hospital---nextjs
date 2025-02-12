@@ -145,8 +145,8 @@ const Footer = () => {
     copyrightText:
       "Copyright © 2024 Vinita Women's Hospital | Designed and Developed by <a href='https://postiview.com/' target='_blank'>PostiView</a>'",
     footerMenu: [
-      { href: '/about', text: 'Privacy Policy' },
-      { href: '/', text: 'Terms & Conditions' },
+      { href: '/privacy-policy', text: 'Privacy Policy' },
+      { href: '/terms&conditions', text: 'Terms & Conditions' },
     ],
   };
 
@@ -170,9 +170,7 @@ const Footer = () => {
                       flexDirection: 'column',
                       alignItems: 'flex-start',
                     }}
-                  >
-                    <FaRegClock />
-                  </i>
+                  ></i>
                   <span
                     dangerouslySetInnerHTML={{ __html: data.contactText }}
                   />
