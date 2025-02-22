@@ -31,7 +31,7 @@ const page = () => {
   return (
     <div>
       <Section
-        className={'cs_page_heading cs_bg_filed cs_center'}
+        className={'cs_page_heading cs_bg_filed cs_center backgroundPositions'}
         backgroundImage="/assets/img/home/about-page_heading_bg.webp"
       >
         <PageHeading data={headingData} />

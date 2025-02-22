@@ -80,14 +80,26 @@
   .ivfboxes{
     height: max-content;
   }
+  .cs_bg_filed{
+    background-position: 35% !important;
+  }
 }
 
 
 @media (min-width:1025px) {
-  .ivfboxes{
-    height: 16rem;
-  }
+  // .ivfboxes{
+  //   height: 16rem;
+  // }
 }
 .blackfooter{
   background-color: #000;
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+  .ivfboxes {
+    height: 17.5rem !important;
+  }
+  .cs_bg_filed{
+    background-position: 35% !important;
+  }
 }

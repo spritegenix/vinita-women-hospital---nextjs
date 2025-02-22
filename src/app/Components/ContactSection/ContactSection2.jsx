@@ -10,7 +10,7 @@ const ContactSection2 = () => {
 
   return (
     <section className="cs_card cs_style_3 cs_gray_bg position-relative">
-      <div className="cs_height_110 cs_height_lg_70"></div>
+      <div className="cs_height_70 cs_height_lg_70"></div>
       <div className="container">
         <div className="row cs_gap_y_40">
           <div className="col-lg-6">
@@ -88,7 +88,7 @@ const ContactSection2 = () => {
           height={399}
         />
       </div>
-      <div className="cs_height_120 cs_height_lg_80"></div>
+      <div className="cs_height_30 cs_height_lg_40"></div>
     </section>
   );
 };

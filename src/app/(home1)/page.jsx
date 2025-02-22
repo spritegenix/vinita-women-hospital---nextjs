@@ -305,7 +305,7 @@ export const teamData = {
     {
       name: 'Dr. Chetanprakash R. Gupta',
       profession: 'IVF specialist',
-      imageUrl: '/assets/img/home/Dr-Chetan-Gupta.webp',
+      imageUrl: '/assets/img/home/Dr-Chetan-Gupta1.webp',
       link: '/doctors/doctor-details',
       facebook: '/',
       pinterest: '/',
@@ -315,7 +315,7 @@ export const teamData = {
     {
       name: 'Dr. Neha Raval',
       profession: 'Embryologist',
-      imageUrl: '/assets/img/home/Dr-Neha-Raval.webp',
+      imageUrl: '/assets/img/home/Dr-Neha-Raval1.webp',
       link: '/doctors/doctor-details',
       facebook: '/',
       pinterest: '/',

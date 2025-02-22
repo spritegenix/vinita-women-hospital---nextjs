@@ -203,3 +203,12 @@
 position: relative;
 top: -40px;
 }
+
+@media (min-width:1200px) and (max-width:1399px) {
+  .ivfboxes {
+    height: 17.5rem !important;
+  }
+  .cs_bg_filed{
+    background-position: 35% !important;
+  }
+}

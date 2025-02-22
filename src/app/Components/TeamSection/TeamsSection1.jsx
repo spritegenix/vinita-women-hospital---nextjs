@@ -1,6 +1,11 @@
+'use client';
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import SectionHeading from '../SectionHeading';
-import Link from 'next/link';
 import Image from 'next/image';
 
 function TeamSection1({ data }) {
@@ -10,50 +15,53 @@ function TeamSection1({ data }) {
         <SectionHeading
           SectionSubtitle={data.subtitle}
           SectionTitle={data.title}
-          variant={'text-center'}
+          variant="text-center"
         />
 
-        <div className="" />
-        <div className="">
-          <div className="">
-            <div className="d-md-flex justify-content-around gap-5 text-center">
-              {data?.sliderData.map((item, index) => (
-                <div className="cs_slide" key={index}>
-                  <div
-                    className={` 
-                    
-                    `}
-                  >
-                    <div
-                      className={`cs_team_shape cs_blue_bg
-                      `}
+        <div className="d-none d-md-flex justify-content-around pt-5 gap-2 text-center">
+          {data?.sliderData.map((item, index) => (
+            <div className="cs_slide" key={index}>
+              <div className="cs_team_shape cs_blue_bg" />
+              <div className="cs_team_thumbnail">
+                <Image src={item.imageUrl} alt="img" width={325} height={429} />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Swiper for Mobile */}
+        <div className="d-md-none pt-5">
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={20}
+            slidesPerView={1}
+            // navigation={{
+            //   nextEl: '.swiper-button-next',
+            //   prevEl: '.swiper-button-prev',
+            // }}
+            pagination={{ clickable: true }}
+            // className="relative"
+          >
+            {data?.sliderData.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="cs_slide text-center">
+                  <div className="cs_team_shape cs_blue_bg" />
+                  <div className="cs_team_thumbnail">
+                    <Image
+                      src={item.imageUrl}
+                      alt="img"
+                      width={325}
+                      height={429}
                     />
-                    <div className="cs_team_thumbnail">
-                      <Image
-                        src={item.imageUrl}
-                        alt="img"
-                        width={325}
-                        height={429}
-                      />
-                    </div>
-                    <div className="cs_team_bio text-center pt-3">
-                      <h5 className="mb-0">
-                        <div className="fw-1">{item.name}</div>
-                      </h5>
-                      <p className="cs_team_subtitle">{item.profession}</p>
-                    </div>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
+              </SwiperSlide>
+            ))}
+            {/* <div className="swiper-button-next text-pink-500"></div>
+            <div className="swiper-button-prev text-pink-500"></div> */}
+          </Swiper>
         </div>
       </div>
-      {/* {bgColor && (
-      <div className="cs_team_bg_dark cs_blue_bg">
-        <div className="cs_team_bg_white cs_white_bg" />
-      </div>
-    )} */}
     </div>
   );
 }
