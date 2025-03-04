@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/style.scss';
 import '../../global.css';
+import { Metadata } from 'next';
 const rubik = Rubik({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800', '900'],
@@ -18,17 +19,48 @@ const poppins = Poppins({
 export const metadata = {
   title: {
     absolute: '',
-    default: "Vinita Women's Hospital | Dr. Chetan Gupta | Dr. Neha Raval",
-    template: '',
+    default: "Vinita Women's Hospital - Best Maternity & IVF Care",
+    // template: "%s | Vinita Women's Hospital - Best Maternity & IVF Care",
   },
-  description:
-    'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
+  description: `Vinita Women's Hospital is the leading maternity, gynecology, and IVF center. We provide expert pregnancy care, fertility treatments, and women's healthcare services.`,
+
+  keywords: [
+    "maternity hospital, IVF center, gynecology, pregnancy care, women's health, fertility treatment, best maternity hospital, Vinita hospital, best women's hospital",
+  ],
 
   openGraph: {
-    title: "Vinita Women's Hospital | Dr. Chetan Gupta | Dr. Neha Raval",
+    title: "Vinita Women's Hospital ",
+    description: `Vinita Women's Hospital is the leading maternity, gynecology, and IVF center. We provide expert pregnancy care, fertility treatments, and women's healthcare services.`,
+    url: 'https://vinitawomenshospital.in/',
+    siteName: "Vinita Women's Hospital",
+    type: 'website',
+    images: [
+      {
+        url: '/openGraphImage.jpg',
+        width: 1200,
+        height: 630,
+        alt: "Vinita Women's Hospital - Expert Gynecology & Fertility Care",
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: "Vinita Women's Hospital",
     description:
-      'At Vinita Women’s Hospital, Unlock your fertility Journey. Let us guide you the journey of starting or expanding your family. Get personalized guidance and support every step of the way!',
-    image: '/openGraphImage.jpg',
+      'At Vinita Women’s Hospital, unlock your fertility journey. Let us guide you through the journey of starting or expanding your family with personalized care and expert support.',
+    site: '@vinitahospital', // Replace with actual Twitter handle if available
+    creator: '@vinitahospital', // Replace with actual creator handle if applicable
+    images: ['/openGraphImage.jpg'],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: 'https://vinitawomenshospital.in/',
   },
 };
 

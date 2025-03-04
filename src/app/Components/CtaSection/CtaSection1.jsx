@@ -25,12 +25,12 @@ const CtaSection1 = ({ data }) => {
         <div className="row align-items-center cs_gap_y_40">
           <div className="col-lg-6">
             <div className="cs_cta_btn_wrapper" data-aos="fade">
-              <a className="cs_video_open" onClick={handelClick}>
+              <button className="cs_video_open" onClick={handelClick}>
                 <span className="cs_player_btn cs_center">
                   <span />
                 </span>
                 <span className="cs_play_btn_text">{data.videoButtonText}</span>
-              </a>
+              </button>
             </div>
           </div>
           <div className="col-lg-6">

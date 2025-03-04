@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
-
+export const metadata = {
+  title: 'Terms and Conditions',
+};
 const TermsAndConditions = () => {
   const containerStyle = {
     maxWidth: '800px',

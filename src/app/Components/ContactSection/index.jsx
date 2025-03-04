@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import SectionHeading from '../SectionHeading';
+import ContactForm from '../ContactForm';
 
 const ContactSection = ({ data, reverseOrder }) => {
   return (
@@ -52,7 +53,8 @@ const ContactSection = ({ data, reverseOrder }) => {
                 />
 
                 <div className="cs_height_25 cs_height_lg_25" />
-                <form className="cs_contact_form row cs_gap_y_30">
+                <ContactForm />
+                {/* <form className="cs_contact_form row cs_gap_y_30">
                   <div className="col-md-6">
                     <input
                       type="text"
@@ -89,18 +91,7 @@ const ContactSection = ({ data, reverseOrder }) => {
                       defaultValue={''}
                     />
                   </div>
-                  {/* <div className="col-lg-12">
-                    <input
-                      type="text"
-                      className="cs_form_field"
-                      placeholder="Type the below word"
-                    />
-                    <input
-                      type="button"
-                      className="cs_form_field cs_code_input"
-                      defaultValue="5RLOpW"
-                    />
-                  </div> */}
+                 
                   <div className="col-lg-12">
                     <button
                       type="submit"
@@ -109,7 +100,7 @@ const ContactSection = ({ data, reverseOrder }) => {
                       Send Request
                     </button>
                   </div>
-                </form>
+                </form> */}
               </div>
             </>
           ) : (
@@ -121,7 +112,8 @@ const ContactSection = ({ data, reverseOrder }) => {
                 />
 
                 <div className="cs_height_25 cs_height_lg_25" />
-                <form className="cs_contact_form row cs_gap_y_30">
+                <ContactForm />
+                {/* <form className="cs_contact_form row cs_gap_y_30">
                   <div className="col-md-6">
                     <input
                       type="text"
@@ -178,7 +170,7 @@ const ContactSection = ({ data, reverseOrder }) => {
                       Send Request
                     </button>
                   </div>
-                </form>
+                </form> */}
               </div>
               <div className="col-lg-6">
                 <div className="cs_contact_thumbnail cs_pl-40">

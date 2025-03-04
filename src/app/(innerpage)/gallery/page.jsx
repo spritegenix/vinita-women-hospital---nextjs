@@ -7,6 +7,19 @@ import { imageSwiperSection } from '@/app/(home1)/page';
 const headingData = {
   title: 'Gallery',
 };
+export const metadata = {
+  title: "Gallery - Vinita Women's Hospital | Our Facilities & Patient Care",
+  description:
+    "Browse our gallery to see the advanced facilities, maternity wards, and patient care services at Vinita Women's Hospital. Quality healthcare with modern technology.",
+  keywords: [
+    "Vinita Women's Hospital gallery",
+    'Maternity ward images',
+    'Hospital facilities',
+    'Patient care photos',
+    'IVF center tour',
+    'Best hospital environment',
+  ],
+};
 
 const Gallery = () => {
   return (

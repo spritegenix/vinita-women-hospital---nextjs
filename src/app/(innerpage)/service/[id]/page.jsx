@@ -2,6 +2,7 @@ import CounterSection2 from '@/app/Components/FunSection/CounterSection2';
 import PageHeading from '@/app/Components/PageHeading';
 import Section from '@/app/Components/Section';
 import ServiceSection4 from '@/app/Components/Service/ServiceSection4';
+import { title } from 'process';
 import React from 'react';
 
 const headingData = {
@@ -291,6 +292,9 @@ export async function generateStaticParams() {
     id: service.id, // Provide the possible `id` values
   }));
 }
+export const metadata = {
+  title: 'Our Services',
+};
 
 const page = () => {
   return (

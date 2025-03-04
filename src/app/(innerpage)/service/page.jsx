@@ -84,6 +84,19 @@ const headingData = {
 //   footerLink: '/',
 //   footerLinkText: 'SEE MORE',
 // };
+export const metadata = {
+  title: "Our Services - Vinita Women's Hospital | Maternity, IVF & Gynecology",
+  description:
+    "Explore our services at Vinita Women's Hospital, including maternity care, IVF treatments, gynecology, pregnancy checkups, and women's healthcare solutions.",
+  keywords: [
+    'Maternity services',
+    'IVF treatments',
+    'Gynecology care',
+    "Women's healthcare",
+    'Pregnancy checkups',
+    'Best maternity hospital',
+  ],
+};
 
 const page = () => {
   return (

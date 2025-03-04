@@ -202,7 +202,7 @@ export const serviceData = {
   footerText:
     'Delivering tomorrow’s healthcare for your family. Learn more about our comprehensive services designed for women’s health.',
   footerLink: '/service',
-  footerLinkText: 'SEE MORE',
+  footerLinkText: 'All services',
 };
 export const ivfData = {
   subtitle: 'Treatments',
@@ -322,36 +322,6 @@ export const teamData = {
       twitter: '/',
       instagram: '/',
     },
-    // {
-    //   name: 'Dr. Sophia Anderson',
-    //   profession: 'Neurologist',
-    //   imageUrl: '/assets/img/team_8.jpg',
-    //   link: '/doctors/doctor-details',
-    //   facebook: '/',
-    //   pinterest: '/',
-    //   twitter: '/',
-    //   instagram: '/',
-    // },
-    // {
-    //   name: 'Dr. Michael Thompson',
-    //   profession: 'Neurologist',
-    //   imageUrl: '/assets/img/team_5.jpg',
-    //   link: '/doctors/doctor-details',
-    //   facebook: '/',
-    //   pinterest: '/',
-    //   twitter: '/',
-    //   instagram: '/',
-    // },
-    // {
-    //   name: 'Dr. David Wilson',
-    //   profession: 'Neurologist',
-    //   imageUrl: '/assets/img/team_6.jpg',
-    //   link: '/doctors/doctor-details',
-    //   facebook: '/',
-    //   pinterest: '/',
-    //   twitter: '/',
-    //   instagram: '/',
-    // },
   ],
 };
 

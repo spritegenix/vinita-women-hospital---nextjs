@@ -1,7 +1,9 @@
 import SectionHeading from '@/app/Components/SectionHeading';
 import Link from 'next/link';
 import React from 'react';
-
+export const metadata = {
+  title: 'Privacy Policy',
+};
 const PrivacyPolicy = () => {
   const containerStyle = {
     maxWidth: '900px',

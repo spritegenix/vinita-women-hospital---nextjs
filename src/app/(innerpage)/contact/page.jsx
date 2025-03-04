@@ -8,6 +8,18 @@ const headingData = {
   backgroundImage: '/assets/img/page_heading_bg.jpg',
   title: 'Contact Us',
 };
+export const metadata = {
+  title: "Contact Us - Vinita Women's Hospital | Get in Touch",
+  description:
+    "Need expert maternity or IVF care? Contact Vinita Women's Hospital today. Call, email, or visit our center for personalized women's healthcare solutions.",
+  keywords: [
+    "Contact Vinita Women's Hospital",
+    'Maternity hospital contact',
+    'IVF center near me',
+    "Women's health inquiries",
+    'Pregnancy care consultation',
+  ],
+};
 
 const contactData = {
   sectionSubtitle: 'CONTACT US',
